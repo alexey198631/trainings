@@ -1,4 +1,5 @@
-#Python#trainings
+#MyPython
+#trainings
 
 Coursera - Python for Everybody Specialization - Getting started with python
 
