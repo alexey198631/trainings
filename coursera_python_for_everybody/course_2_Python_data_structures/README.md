@@ -1,7 +1,6 @@
-#MyPython
-#trainings
+### MyPython - trainings
 
-Coursera - Python for Everybody Specialization - Python data structures:
+##### Coursera - Python for Everybody Specialization - Python data structures:
 
 - assignment_6.5.py: code using find() and string slicing to extract the number
 - assignment_7.1.py: read the file and print the contents of the file in upper case
