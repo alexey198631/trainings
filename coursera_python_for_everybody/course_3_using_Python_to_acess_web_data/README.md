@@ -1,6 +1,6 @@
-### MyPython - trainings
+#### MyPython - trainings
 
-##### Coursera - Python for Everybody Specialization - Python data structures:
+### Coursera - Python for Everybody Specialization - Python data structures:
 
 - assignment_11.py: finding numbers in a text and sum them
 - assignment_12.1.py: retrieval of http
