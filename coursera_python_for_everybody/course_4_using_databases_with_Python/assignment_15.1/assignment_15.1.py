@@ -25,7 +25,7 @@ and the importance of not losing the results of operations that have not yet bee
 """
 import sqlite3
 
-conn = sqlite3.connect('orgdb.sqlite')
+conn = sqlite3.connect('data_files/orgdb.sqlite')
 cur = conn.cursor()
 
 cur.execute('DROP TABLE IF EXISTS Counts')
