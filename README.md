@@ -11,7 +11,7 @@ Specialization includes following courses:
 1. [Getting started with python](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_1_getting_started_with_Python)
 2. [Python Data Structures](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_2_Python_data_structures)
 3. [Using python to Access Web Data](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_3_using_Python_to_acess_web_data)
-4. Using Databases with Python
+4. [Using Databases with Python](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_4_using_databases_with_Python)
 5. Capstone: Retrieving Processing and Visualizing Data with Python
 
 ### [edX - MITx: 6.00.1x - Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7?index=product&queryID=ffa27a743e81f3397da91aefee857fe1&position=1)
