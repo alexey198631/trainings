@@ -9,13 +9,13 @@ The program calculates the credit card balance after one year if a person only p
 
 - **Problem_2_Paying_Debt_Off_in_a_Year.py**:
 
-Write a program that calculates the minimum fixed monthly payment needed in order pay off a credit card balance within 12 months. Fixed monthly payment is a constant amount that will be paid each month.
+The program calculates the minimum fixed monthly payment needed in order pay off a credit card balance within 12 months. Fixed monthly payment is a constant amount that will be paid each month.
 
 - **Problem_3_Using_Bisection_Search_to_Make_the_Program_Faster.py**:
 
 The program uses bisection search to determine the minimum fixed monthly payment
 
-#### Exercises
+#### [Exercises](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python/Problem_Set_2_Simple_programs/exercises)
 
 - **Guess_my_number**: the program guesses a secret number
 - **power iter**: the iterative function calculates the exponential using iteration
