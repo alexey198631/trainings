@@ -2,6 +2,12 @@
 
 ## Coursera - Introduction to Computer Science and Programming Using Python - Unit 3: Simple Programs:
 
+#### [Exercises](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python/Problem_Set_3_Structured_types/exercise)
+
+- **Exercise_odd_tuples.py**: the procedure takes a tuple as input, and returns a new tuple as output, where every other element of the input tuple is copied, starting with the first one.
+- **Exercise_biggest.py**: the procedure returns the key corresponding to the entry with the largest number of values associated with it.
+- **Exercise_how_many.py**: the procedure returns the sum of the number of values associated with a dictionary.
+
 ### The classic wordgame Hangman
 
 #### Requirements
@@ -155,10 +161,3 @@ The function hangman, which takes one parameter - the secretWord the user is to 
 **Hangman**
 
 App combining all parts
-
-
-#### Exercises
-
-- **Exercise_odd_tuples.py**: the procedure takes a tuple as input, and returns a new tuple as output, where every other element of the input tuple is copied, starting with the first one.
-- **Exercise_biggest.py**: the procedure returns the key corresponding to the entry with the largest number of values associated with it.
-- **Exercise_how_many.py**: the procedure returns the sum of the number of values associated with a dictionary.
