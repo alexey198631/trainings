@@ -10,7 +10,6 @@ letters remaining.
 
 For example:
 
-
 hand = {'a':1, 'q':1, 'l':2, 'm':1, 'u':1, 'i':1}
 displayHand(hand) # Implemented for you
 a q l l m u i

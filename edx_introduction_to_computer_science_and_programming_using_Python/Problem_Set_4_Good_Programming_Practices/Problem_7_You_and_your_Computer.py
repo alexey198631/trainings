@@ -5,12 +5,7 @@ You will modify the function to behave as described below in the function's comm
 As before, you should use the HAND_SIZE constant to determine the number of cards in a hand.
 Be sure to try out different values for HAND_SIZE with your program.
 """
-from Problem_1_Word_Scores import getWordScore
-from Problem_2_Dealing_with_Hands import updateHand
-from Problem_4_Hand_Length import calculateHandlen
-from Word_Game import displayHand
-from Problem_3_Valid_Words import isValidWord
-from Problem_6_Playing_a_Game import HAND_SIZE
+from Word_Game_with_Computer import *
 
 
 def playGame(wordList):
