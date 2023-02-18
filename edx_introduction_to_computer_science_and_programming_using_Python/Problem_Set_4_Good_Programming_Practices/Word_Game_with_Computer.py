@@ -1,4 +1,4 @@
-from ps4a import *
+from Word_Game import *
 import time
 
 
@@ -167,9 +167,6 @@ def playGame(wordList):
                         compPlayHand(last, wordList, n)
 
 
-
-
-
         else:
             print('Invalid command.')
 
@@ -186,8 +183,5 @@ if __name__ == '__main__':
    wordList = loadWords()
    playGame(wordList)
 
-#wordList = loadWords()
 
-
-#compPlayHand({'a': 2, 'e': 2, 'i': 2, 'm': 2, 'n': 2, 't': 2}, wordList, 12)
 
