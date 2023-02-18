@@ -1,8 +1,8 @@
 #### MyPython - trainings
 
-## Coursera - Introduction to Computer Science and Programming Using Python - Midterm EXAM:
+## Coursera - Introduction to Computer Science and Programming Using Python
 
-#### Content
+### Midterm EXAM:
 
 **Problem_3 Fix errors**
 
