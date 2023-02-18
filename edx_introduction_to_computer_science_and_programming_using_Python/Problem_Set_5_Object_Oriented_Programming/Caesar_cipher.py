@@ -48,12 +48,12 @@ def get_story_string():
     """
     Returns: a joke in encrypted text.
     """
-    f = open("story.txt", "r")
+    f = open("data_files/story.txt", "r")
     story = str(f.read())
     f.close()
     return story
 
-WORDLIST_FILENAME = 'words.txt'
+WORDLIST_FILENAME = 'data_files/words.txt'
 
 class Message(object):
     ### DO NOT MODIFY THIS METHOD ###
@@ -159,8 +159,6 @@ class PlaintextMessage(Message):
         Hint: consider using the parent class constructor so less 
         code is repeated
         '''
-
-
         self.message_text = text
         self.shift = shift
         self.encrypting_dict = self.build_shift_dict(shift)
@@ -262,8 +260,6 @@ def decrypt_story():
     return ciphertext.decrypt_message()[1]
 
 
-
-
 #Example test case (PlaintextMessage)
 plaintext = PlaintextMessage('hello', 2)
 #plaintext.change_shift(4)
@@ -273,7 +269,7 @@ print('Actual Output:', plaintext.get_message_text_encrypted())
 
 #Example test case (CiphertextMessage)
 ciphertext = CiphertextMessage('P aopur aoha vby dvysk pz dvuklymbs wshjl av spcl!')
-print('Expected Output:', (24, 'hello'))
+print('Expected Output: I think that our world is wonderful place to live!')
 print('Actual Output:', ciphertext.decrypt_message())
 
 print(decrypt_story())
