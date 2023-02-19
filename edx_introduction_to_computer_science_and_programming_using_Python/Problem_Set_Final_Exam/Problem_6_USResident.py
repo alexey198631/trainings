@@ -1,3 +1,20 @@
+"""
+In this problem, you will implement a class according to the specifications in the template file usresident.py.
+The file contains a Person class similar to what you have seen in lecture and a USResident class (a subclass of Person).
+Person is already implemented for you and you will have to implement two methods of USResident.
+
+For example, the following code:
+
+a = USResident('Tim Beaver', 'citizen')
+print(a.getStatus())
+b = USResident('Tim Horton', 'non-resident')
+will print out:
+
+citizen
+## will show that a ValueError was raised at a particular line
+"""
+
+
 class Person(object):
     def __init__(self, name):
         # create a person with name name
@@ -36,13 +53,6 @@ class Person(object):
         # return self's name
         return self.name
 
-me = Person('Alexey Gukov')
-print(me.getLastName())
-me.setAge(36)
-print(me)
-print(me.getAge())
-
-
 
 class USResident(Person):
     """
@@ -56,7 +66,6 @@ class USResident(Person):
         status: a string, one of "citizen", "legal_resident", "illegal_resident"
         Raises a ValueError if status is not one of those 3 strings
         """
-        # Write your code here
 
         Person.__init__(self, name)  # initialize Person attributes
         # new MITPerson attribute: a unique ID number
@@ -72,6 +81,8 @@ class USResident(Person):
             raise ValueError('Status is unknown')
         return self.status
 
-a = USResident('Tim Beaver', 'cidtizen')
-b = USResident('Tim Beaver', 'citizen')
-print(b.getStatus())
+
+a = USResident('Tim Beaver', 'citizen')
+print(a.getStatus()) # output: citizen
+b = USResident('Tim Horton', 'non-resident')
+print(b.getStatus()) # ValueError: Not "citizen", "legal_resident", "illegal_resident"
