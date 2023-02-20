@@ -6,6 +6,8 @@ This project contains coding assignments that I found interesting and solved by 
 
 ### [Coursera - Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 
+[<img src="https://github.com/alexey198631/trainings/blob/main/coursera_python_for_everybody/course_picture.png" alt="course picture" width="100" align="right">](https://www.coursera.org/specializations/python)
+
 Specialization includes following courses:
 
 1. [Getting started with python](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_1_getting_started_with_Python)
