@@ -54,16 +54,13 @@ def greedy_cow_transport(cows,limit=10):
     transported on a particular trip and the overall list containing all the
     trips
     """
-    # TODO: Your code here
     class Cow(object):
         def __init__(self, n, w):
             self.name = n
             self.weight = w
 
-
         def getWeight(self):
             return self.weight
-
 
         def __str__(self):
             return self.name
@@ -131,8 +128,6 @@ def brute_force_cow_transport(cows,limit=10):
     transported on a particular trip and the overall list containing all the
     trips
     """
-    # TODO: Your code here
-
 
     class Cow(object):
         def __init__(self, n, w):
@@ -160,9 +155,6 @@ def brute_force_cow_transport(cows,limit=10):
         else:
             return numList[0] + listsum(numList[1:])
 
-
-
-
     names = []
     weights = []
     for k, v in cows.items():
@@ -189,8 +181,6 @@ def brute_force_cow_transport(cows,limit=10):
     return new
 
 
-
-        
 # Problem 3
 def compare_cow_transport_algorithms():
     """
