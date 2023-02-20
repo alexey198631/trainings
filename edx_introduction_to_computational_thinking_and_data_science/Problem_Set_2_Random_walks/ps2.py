@@ -83,7 +83,7 @@ class RectangularRoom(object):
 
         pos: a Position
         """
-        self.CleanedTiles[math.floor(pos.getX()),math.floor(pos.getY())] = 1
+        self.CleanedTiles[math.floor(pos.getX()), math.floor(pos.getY())] = 1
 
     def isTileCleaned(self, m, n):
         """
@@ -95,7 +95,7 @@ class RectangularRoom(object):
         n: an integer
         returns: True if (m, n) is cleaned, False otherwise
         """
-        if (m,n) in self.CleanedTiles:
+        if (m, n) in self.CleanedTiles:
             return True
         else:
             return False
