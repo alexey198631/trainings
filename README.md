@@ -2,7 +2,7 @@
 
 ### Summary
 
-This project contains assignments that I found interesting and solved by myself during the completion of the basic courses on learning Python:
+This project contains coding assignments that I found interesting and solved by myself during the completion of the basic courses on learning Python:
 
 ### [Coursera - Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 
@@ -76,3 +76,47 @@ Specialization includes following courses:
 
 
 ### [edX - MITx 6.00.2x - Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-to-computational-thinking-and-data-4?index=product&queryID=2ee30a8643dcf8211543db8e12661dc3&position=3&eaid=0&v=1&linked_from=autocomplete&c=autocomplete)
+
+#### UNIT 1
+
+1. Lecture 1 - Optimization and the Knapsack Problem (3 Questions)
+2. Lecture 2 - Decision Trees and Dynamic Programming (2 Questions)
+3. Lecture 3 - Graph Problems (7 Questions)
+
+- **Problem Set 1 (5 Questions)**
+
+#### UNIT 2
+
+4. Lecture 4 - Plotting
+5. Lecture 5 - Stochastic Thinking (9 Questions)
+6. Lecture 6 - Random Walks (4 Questions)
+
+- **Problem Set 2 (7 Questions)**
+
+#### Midterm
+
+- **Midterm (8 hour time limit) (18 Questions)**
+
+#### UNIT 3
+
+7. Lecture 7 - Inferential Statistics (6 Questions)
+8. Lecture 8 - Monte Carlo Simulations (4 Questions)
+9. Lecture 9 - Sampling and Standard Error (5 Questions),
+
+- **Problem Set 3 (7 Questions)**
+
+#### UNIT 4
+
+10. Lecture 10 - Experimental Data Part 1 (3 Questions)
+11. Lecture 11 - Experimental Data Part 2 (2 Questions)
+
+- **Problem Set 4 (6 Questions)**
+
+#### UNIT 5
+
+12. Lecture 12 - Machine Learning (5 Questions)
+13. Lecture 13 - Statistical Fallacies
+
+#### Final Exam
+
+- **Final Exam (8 hour time limit) (29 Questions)**
