@@ -20,10 +20,10 @@ First we need to load the cow data from the data file ps1_cow_data.txt, this has
 
 You can expect the data to be formatted in pairs of x,y on each line, where x is the name of the cow and y is a number indicating how much the cow weighs in tons, and that all of the cows have unique names. Here are the first few lines of ps1_cow_data.txt:
 
-`Maggie,3
-Herman,7
-Betsy,9
-...`
+`Maggie,3`
+`Herman,7`
+`Betsy,9`
+`...`
 
 ### Part 1: Greedy Cow Transport
 
@@ -82,8 +82,8 @@ To help you with creating partitions, we have included a helper function get_par
 
 You can review more on generators in the Lecture 2 Exercise 1. To use generators, you must iterate over the generator to retrieve the elements; you cannot index into a generator! For instance, the recommended way to call get_partitions on a list [1,2,3] is the following. Try it out in ps1_partitions.py to see what is printed!
 
-`for partition in get_partitions([1,2,3]):
-    print(partition)`
+`for partition in get_partitions([1,2,3]):`
+    `print(partition)`
 
 #### Example:
 
@@ -101,10 +101,10 @@ Implement compare_cow_transport_algorithms. Load the cow data in ps1_cow_data.tx
 
 You can measure the time a block of code takes to execute using the time.time() function as follows. This prints the duration in seconds, as a float. For a very small fraction of a second, it will print 0.0.
 
-`start = time.time()
-#code to be timed
-end = time.time()
-print(end - start)`
+`start = time.time()`
+`#code to be timed`
+`end = time.time()`
+`print(end - start)`
 
 Using the given default weight limits of 10 and the given cow data, both algorithms should not take more than a few seconds to run.
 
