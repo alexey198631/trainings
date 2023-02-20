@@ -195,21 +195,31 @@ def compare_cow_transport_algorithms():
     Returns:
     Does not return anything.
     """
-    # TODO: Your code here
-    pass
 
+    cows = load_cows("data_files/ps1_cow_data.txt")
+    # default weight limits of 10
+    limit = 10
+
+    start = time.time()
+    ## code to be timed
+    number_brute = len(brute_force_cow_transport(cows, limit))
+    end = time.time()
+    duration_brute = end - start
+
+    start = time.time()
+    ## code to be timed
+    number_greedy = len(greedy_cow_transport(cows, limit))
+    end = time.time()
+    duration_greedy = end - start
+
+    print(f'Greedy {number_greedy} trips, {duration_greedy} \nBrute force {number_brute} trips, time {duration_brute}')
+    print(f'greedy_cow_transport runs faster: {(duration_greedy - duration_brute) < 0},\nbrute_force_cow_transport returns better solution: {(number_brute - number_greedy) < 0}')
+
+compare_cow_transport_algorithms()
 
 """
-Here is some test data for you to see the results of your algorithms with. 
-Do not submit this along with any of your answers. Uncomment the last two
-lines to print the result of your problem.
+Greedy 6 trips, 0.00010704994201660156 
+Brute force 4 trips, time 0.10239386558532715
+greedy_cow_transport runs faster: True,
+brute_force_cow_transport returns better solution: True
 """
-
-cows = load_cows("ps1_cow_data.txt")
-limit=10
-print(cows)
-
-print(greedy_cow_transport(cows, limit))
-print(brute_force_cow_transport(cows, limit))
-
-

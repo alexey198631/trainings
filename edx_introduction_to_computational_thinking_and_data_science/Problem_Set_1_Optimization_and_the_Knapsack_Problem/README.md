@@ -20,10 +20,10 @@ First we need to load the cow data from the data file ps1_cow_data.txt, this has
 
 You can expect the data to be formatted in pairs of x,y on each line, where x is the name of the cow and y is a number indicating how much the cow weighs in tons, and that all of the cows have unique names. Here are the first few lines of ps1_cow_data.txt:
 
-Maggie,3
+`Maggie,3
 Herman,7
 Betsy,9
-...
+...`
 
 ### Part 1: Greedy Cow Transport
 
@@ -31,7 +31,9 @@ One way of transporting cows is to always pick the heaviest cow that will fit on
 
 Implement a greedy algorithm for transporting the cows back across space in the function greedy_cow_transport. The function returns a list of lists, where each inner list represents a trip and contains the names of cows taken on that trip.
 
-Note: Make sure not to mutate the dictionary of cows that is passed in!
+#### Note
+
+Make sure not to mutate the dictionary of cows that is passed in!
 
 #### Assumptions:
 
@@ -40,6 +42,8 @@ All the cows are between 0 and 100 tons in weight.
 All the cows have unique names.
 If multiple cows weigh the same amount, break ties arbitrarily.
 The spaceship has a cargo weight limit (in tons), which is passed into the function as a parameter.
+
+#### Helper function get_partitions in ps1_partitions.py
 
 #### Example:
 
@@ -78,8 +82,8 @@ To help you with creating partitions, we have included a helper function get_par
 
 You can review more on generators in the Lecture 2 Exercise 1. To use generators, you must iterate over the generator to retrieve the elements; you cannot index into a generator! For instance, the recommended way to call get_partitions on a list [1,2,3] is the following. Try it out in ps1_partitions.py to see what is printed!
 
-for partition in get_partitions([1,2,3]):
-    print(partition)
+`for partition in get_partitions([1,2,3]):
+    print(partition)`
 
 #### Example:
 
@@ -96,16 +100,17 @@ Implement compare_cow_transport_algorithms. Load the cow data in ps1_cow_data.tx
 #### Hints:
 
 You can measure the time a block of code takes to execute using the time.time() function as follows. This prints the duration in seconds, as a float. For a very small fraction of a second, it will print 0.0.
-start = time.time()
+
+`start = time.time()
 #code to be timed
 end = time.time()
-print(end - start)
+print(end - start)`
 
 Using the given default weight limits of 10 and the given cow data, both algorithms should not take more than a few seconds to run.
 
 
-#### [Exercises]()
+#### Unit coding exercises
 
-- **Exercise_yieldAllCombos.py**:
-- **Exercise_edges_to_the_graph.py**:
-- **Exercise_WeightedEdge.py**: 
+- **Exercise_yieldAllCombos.py**: the generator that returns every arrangement of items such that each is in one or none of two different bags;
+- **Exercise_edges_to_the_graph.py**: Adding the appropriate edges to the graph;
+- **Exercise_WeightedEdge.py**: WeightedEdge class that extends Edge.
