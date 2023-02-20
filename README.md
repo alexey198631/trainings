@@ -57,7 +57,7 @@ Specialization includes following courses:
 9. Classes and Inheritance (7 Questions)
 10. An Extended Example (4 Questions)
 
-- [Problem Set 5 (4 Questions)]https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python/Problem_Set_5_Object_Oriented_Programming
+- [Problem Set 5 (4 Questions)](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python/Problem_Set_5_Object_Oriented_Programming)
 
 #### Unit 6: Algorithmic Complexity
 
