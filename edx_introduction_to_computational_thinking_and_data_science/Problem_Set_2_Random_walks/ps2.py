@@ -2,10 +2,8 @@
 
 import math
 import random
-
-import ps2_visualize
 import pylab
-
+import ps2_visualize
 from ps2_verify_movement310 import testRobotMovement
 
 # === Provided class Position
@@ -278,12 +276,6 @@ def runSimulation(num_robots, speed, width, height, min_coverage, num_trials,
     return float(sum(trials)) / len(trials)
 
 
-
-
-# Uncomment this line to see how much your simulation takes on average
-
-
-
 # === Problem 5
 class RandomWalkRobot(Robot):
     """
@@ -307,6 +299,12 @@ class RandomWalkRobot(Robot):
 
 
 print(runSimulation(2, 1.0, 20, 20, 0.8, 20, StandardRobot))
+
+
+# === Problem 6
+# NOTE: If you are running the simulation, you will have to close it
+# before the plot will show up.
+
 
 def showPlot1(title, x_label, y_label):
     """
@@ -348,23 +346,8 @@ def showPlot2(title, x_label, y_label):
     pylab.xlabel(x_label)
     pylab.ylabel(y_label)
     pylab.show()
-    
 
-# === Problem 6
-# NOTE: If you are running the simulation, you will have to close it 
-# before the plot will show up.
 
-#
-# 1) Write a function call to showPlot1 that generates an appropriately-labeled
-#     plot.
-#
-#       (... your call here ...)
-#
-#showPlot1('Time It Takes 1 - 10 Robots To Clean 80% Of A Room','Number of Robots','times')
-showPlot2('title', 'aspect_ratios', 'times')
-#
-# 2) Write a function call to showPlot2 that generates an appropriately-labeled
-#     plot.
-#
-#       (... your call here ...)
-#
+
+showPlot1('Time It Takes 1 - 10 Robots To Clean 80% Of A Room','Number of Robots','times')
+showPlot2('Time It Takes Two Robots To Clean 80% Of Variously Shaped Rooms', 'Aspect Ratio', 'Time-steps')
