@@ -188,24 +188,22 @@ class Patient(object):
         returns: The total virus population at the end of the update (an
         integer)
         """
-        list_of_virues = self.viruses.copy()
-        for virus in list_of_virues:
-            if virus.doesClear():
-                self.viruses.remove(virus)
 
-        popDensity = len(self.viruses) / self.maxPop
+        self.viruses = [virus for virus in self.viruses if not virus.doesClear()]
+
+        popDensity = len(self.viruses) / float(self.maxPop)
 
         list_of_viruses_2 = self.viruses.copy()
         for y in list_of_viruses_2:
             try:
-                y.reproduce(popDensity)
-                self.viruses.append(y)
+                self.viruses.append(y.reproduce(popDensity))
             except NoChildException:
                 continue
+        return len(self.viruses)
 
 
 # some testing
-
+"""
 
 v1 = SimpleVirus(1.0, 0.0)
 print(v1.doesClear()) # False
@@ -228,8 +226,9 @@ SimpleVirus(0.61, 0.86),
 P1 = Patient(viruses, 9)
 print(P1.getTotalPop()) # 7
 
-
 virus = SimpleVirus(1.0, 0.0)
 patient = Patient([virus], 100)
 for n in range(0, 100):
     print(patient.getTotalPop()) # 1
+    
+"""
