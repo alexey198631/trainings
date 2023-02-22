@@ -329,7 +329,10 @@ class ResistantVirus(SimpleVirus):
         else:
             raise NoChildException
 
-            
+#
+# PROBLEM 4
+#
+
 
 class TreatedPatient(Patient):
     """
@@ -435,7 +438,7 @@ class TreatedPatient(Patient):
 
 
 #
-# PROBLEM 4
+# PROBLEM 5
 #
 def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
                        mutProb, numTrials):
@@ -488,9 +491,6 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
 
     for km in range(300):
         data1[km] = data1[km] / numTrials
-
-    print(data)
-    print(data1)
 
     pylab.figure(figsize=(16, 10), dpi=80)
 

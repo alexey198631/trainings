@@ -154,6 +154,7 @@ class TreatedPatient(Patient):
         super().__init__(viruses, maxPop)
         self.list_of_drugs = []
 
+
     def addPrescription(self, newDrug):
         """
         Administer a drug to this patient. After a prescription is added, the
@@ -168,6 +169,7 @@ class TreatedPatient(Patient):
         if self.newDrug not in self.list_of_drugs:
             return self.list_of_drugs.append(newDrug)
 
+
     def getPrescriptions(self):
         """
         Returns the drugs that are being administered to this patient.
@@ -177,6 +179,7 @@ class TreatedPatient(Patient):
         """
 
         return self.list_of_drugs
+
 
     def getResistPop(self, drugResist):
         """
@@ -196,6 +199,7 @@ class TreatedPatient(Patient):
             if all([v.isResistantTo(i) for i in self.drugResist]) == True:
                 ResistPop += 1
         return ResistPop
+
 
     def update(self):
         """
@@ -218,18 +222,14 @@ class TreatedPatient(Patient):
         integer)
         """
 
-        viruses_copy = self.viruses.copy()
-        for v in viruses_copy:
-            if v.doesClear() == True:
-                self.viruses.remove(v)
+        self.viruses = [virus for virus in self.viruses if not virus.doesClear()]
 
-        popDensity = len(self.viruses) / self.maxPop
+        popDensity = len(self.viruses) / float(self.maxPop)
 
         viruses_copy_2 = self.viruses.copy()
-        for j in viruses_copy_2:
+        for v in viruses_copy_2:
             try:
-                j.reproduce(popDensity, self.list_of_drugs)
-                self.viruses.append(j)
+                self.viruses.append(v.reproduce(popDensity, self.getPrescriptions()))
             except NoChildException:
                 continue
         return len(self.viruses)

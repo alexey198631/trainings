@@ -55,8 +55,7 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
     data1 = [0] * 300
 
     for i in range(numTrials):
-
-        virus = ResistantVirus(maxBirthProb, clearProb, resistances, mutProb)
+        virus = ResistantVirus(maxBirthProb, clearProb, resistances.copy(), mutProb)
         viruses = [virus] * numViruses
         patient = TreatedPatient(viruses, maxPop)
         virus_count = []
@@ -65,8 +64,7 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
         for j in range(300):
             if j == 150:
                 patient.addPrescription('guttagonol')
-            patient.update()
-            virus_count.append(patient.getTotalPop())
+            virus_count.append(patient.update())
             resist_virus_count.append(patient.getResistPop(['guttagonol']))
 
         for z in range(300):
@@ -75,17 +73,19 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
         for y in range(300):
             data1[y] = data1[y] + resist_virus_count[y]
 
+
     for m in range(300):
         data[m] = data[m] / numTrials
 
     for km in range(300):
         data1[km] = data1[km] / numTrials
 
-    print(data)
-    print(data1)
+    pylab.figure(figsize=(16, 10), dpi=80)
 
-    pylab.plot(list([float('{0:.1f}'.format(i)) for i in data]), label=r'Non-resistant population')
-    pylab.plot(list([float('{0:.1f}'.format(y)) for y in data1]), label=r'Guttagonol Resistant population')
+    pylab.get_current_fig_manager().set_window_title('Cool Name')
+
+    pylab.plot(list(data), label=r'Non-resistant population')
+    pylab.plot(list(data1), label=r'Guttagonol Resistant population')
     pylab.xlabel(r'Number of steps')
     pylab.ylabel(r'Average Virus Population')
     pylab.title(r'Virus Simulation in Patient')
@@ -94,4 +94,5 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
 
 
 #simulationWithDrug(100, 1000, .1, 0.05, {"guttagonol": False}, 0.005, 100)
-simulationWithDrug(75, 100, .8, 0.1, {"guttagonol": True}, 0.8, 1)
+#simulationWithDrug(75, 100, .8, 0.1, {"guttagonol": True}, 0.8, 1)
+simulationWithDrug(1, 20, 1.0, 0.0, {"guttagonol": True}, 1.0, 5)

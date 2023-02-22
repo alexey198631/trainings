@@ -4,7 +4,9 @@
 
 ### Coding Exercises
 
-- **Exercise stdDevOfLengths(L)**: the function that takes in a list of strings and outputs the standard deviation of the lengths of the strings. Return float('NaN') if L is empty
+- **Exercise stdDevOfLengths(L)**:
+
+The function that takes in a list of strings and outputs the standard deviation of the lengths of the strings. Return float('NaN') if L is empty
 
 - **Exercise - Ball the same color Monte Carlo simulation**:
 
@@ -40,16 +42,18 @@ A trivial model of the virus population - the patient does not take any drugs an
 
 Understanding the population dynamics before introducing any drug
 
-<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr2.png" alt="course picture" width="200" align="center">
+<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr2.png" alt="course picture" width="600" align="center">
 
 #### Problem 3: Implementing a Simulation With Drugs
 
+In this problem, we consider the effects of both administering drugs to the patient and the ability of virus particle offsprings to inherit or mutate genetic traits that confer drug resistance. As the virus population reproduces, mutations will occur in the virus offspring, adding genetic diversity to the virus population. Some virus particles gain favorable mutations that confer resistance to drugs.
 
+#### Problem 4: TreatedPatient Class
 
-#### Problem 5: Running and Analyzing a Simulation With a Drug
+A representation for a patient that accounts for the use of drug treatments and manages a collection of `ResistantVirus` instances. For this, we introduce the `TreatedPatient` class, which is a subclass of `Patient`. `TreatedPatient` must make use of the new methods in `ResistantVirus` and maintain the list of drugs that are administered to the patient.
 
-The program calculates the minimum fixed monthly payment needed in order pay off a credit card balance within 12 months. Fixed monthly payment is a constant amount that will be paid each month.
+#### Problem 5: Running and Analzing a Simulation With a Drug
 
-- **Problem_3_Using_Bisection_Search_to_Make_the_Program_Faster.py**:
+The implementation of Problem 4 to run a simulation.
 
-The program uses bisection search to determine the minimum fixed monthly payment
+<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr5.png" alt="course picture" width="600" align="center">
