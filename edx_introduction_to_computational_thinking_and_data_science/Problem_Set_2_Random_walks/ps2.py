@@ -4,7 +4,8 @@ import math
 import random
 import pylab
 import ps2_visualize
-from ps2_verify_movement310 import testRobotMovement
+import ps2_verify_movement10
+#from ps2_verify_movement10 import testRobotMovement
 
 # === Provided class Position
 class Position(object):
