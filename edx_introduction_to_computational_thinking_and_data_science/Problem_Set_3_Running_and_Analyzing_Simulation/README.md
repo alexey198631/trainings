@@ -40,7 +40,7 @@ A trivial model of the virus population - the patient does not take any drugs an
 
 Understanding the population dynamics before introducing any drug
 
-<img src="https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr2.png" alt="course picture" width="200" align="center">
+<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr2.png" alt="course picture" width="200" align="center">
 
 #### Problem 3: Implementing a Simulation With Drugs
 
