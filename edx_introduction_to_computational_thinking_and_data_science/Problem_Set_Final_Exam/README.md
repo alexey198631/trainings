@@ -18,22 +18,7 @@ and for the x and y axis, `getAverage` that returns the mean and calls makeHisto
 
 #### Problem 6 Find combination
 
-Implementation of a function that meets the specifications:
-
-```def find_combination(choices, total):
-    choices: a non-empty list of ints
-    total: a positive int
-
-    Returns result, a numpy.array of length len(choices)
-    such that
-        * each element of result is 0 or 1
-        * sum(result*choices) == total
-        * sum(result) is as small as possible
-    In case of ties, returns any result that works.
-    If there is no result that gives the exact total,
-    pick the one that gives sum(result*choices) closest
-    to total without going over.
-    ```
+Implementation of a function that meets the specifications: each element of result is `0` or `1`, `sum(result*choices) == total`, `sum(result)` is as small as possible
 
 #### Problem 8
 
