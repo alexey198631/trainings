@@ -27,3 +27,5 @@ with implemented methods
 **Problem 7 location class**
 
 Campus class with methods: adding tent, removing tent, getting tents
+
+```course was finished 04.08.2022

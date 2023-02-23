@@ -161,3 +161,5 @@ The function hangman, which takes one parameter - the secretWord the user is to 
 **Hangman**
 
 App combining all parts
+
+```course was finished 04.08.2022

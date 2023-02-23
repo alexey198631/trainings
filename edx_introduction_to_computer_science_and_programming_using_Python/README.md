@@ -94,4 +94,4 @@ the appropriate shift value and unencrypted story string
 - **Problem 6 USResident**: The file contains a Person class and a USResident class (a subclass of Person) with implemented methods
 - **Problem 7 location class**: Campus class with methods: adding tent, removing tent, getting tents
 
-```04.08.2022
+```course was finished 04.08.2022

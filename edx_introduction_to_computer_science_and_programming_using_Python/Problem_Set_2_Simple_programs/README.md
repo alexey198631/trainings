@@ -24,3 +24,5 @@ The program uses bisection search to determine the minimum fixed monthly payment
 - **gcd recur**: the program determines the greatest common divisor of two positive integers using recursion
 - **is in**: the program determines a character is in a string using bisection search
 - **Polysum**: the program determines the perimeter of the regular polygon
+
+```course was finished 04.08.2022

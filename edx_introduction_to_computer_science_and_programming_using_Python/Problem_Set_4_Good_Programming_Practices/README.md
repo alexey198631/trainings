@@ -89,3 +89,5 @@ Enter n to deal a new hand, r to replay the last hand, or e to end game: e
 **Word Game**: Full code for the Word Game
 
 **Word Game with Computer**: Computer Choosing a Word and Playing a Hand
+
+```course was finished 04.08.2022

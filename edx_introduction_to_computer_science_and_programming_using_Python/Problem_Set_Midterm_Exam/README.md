@@ -29,3 +29,5 @@ A function called score that meets the specifications.
 
 A function called score that meets the specifications.
 After half a year learning Python, I decided to re-write my code for this problem
+
+```course was finished 04.08.2022
