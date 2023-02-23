@@ -75,7 +75,7 @@ Specialization includes following courses:
 - [Final Exam (8 hour time limit) (15 Questions)](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python/Final_Exam)
 
 
-### [<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/course_picture.png" alt="course picture" width="100" align="left">](https://www.edx.org/course/introduction-to-computational-thinking-and-data-4?index=product&queryID=2ee30a8643dcf8211543db8e12661dc3&position=3&eaid=0&v=1&linked_from=autocomplete&c=autocomplete) [edX - MITx 6.00.2x - Introduction to Computational Thinking and Data Science](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science)
+### [<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/course_picture.png" alt="course picture" width="100" align="left">](https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem/data_files/course_picture.png) [edX - MITx 6.00.2x - Introduction to Computational Thinking and Data Science](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science)
 
 
 #### UNIT 1
@@ -84,7 +84,7 @@ Specialization includes following courses:
 2. Lecture 2 - Decision Trees and Dynamic Programming (2 Questions)
 3. Lecture 3 - Graph Problems (7 Questions)
 
-- **Problem Set 1 (5 Questions)**
+- [**Problem Set 1 (5 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem)
 
 #### UNIT 2
 
@@ -92,11 +92,11 @@ Specialization includes following courses:
 5. Lecture 5 - Stochastic Thinking (9 Questions)
 6. Lecture 6 - Random Walks (4 Questions)
 
-- **Problem Set 2 (7 Questions)**
+- [**Problem Set 2 (7 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_2_Random_walks)
 
 #### Midterm
 
-- **Midterm (8 hour time limit) (18 Questions)**
+- [**Midterm (8 hour time limit) (18 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_Midterm_Exam)
 
 #### UNIT 3
 
@@ -104,14 +104,14 @@ Specialization includes following courses:
 8. Lecture 8 - Monte Carlo Simulations (4 Questions)
 9. Lecture 9 - Sampling and Standard Error (5 Questions),
 
-- **Problem Set 3 (7 Questions)**
+- [**Problem Set 3 (7 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation)
 
 #### UNIT 4
 
 10. Lecture 10 - Experimental Data Part 1 (3 Questions)
 11. Lecture 11 - Experimental Data Part 2 (2 Questions)
 
-- **Problem Set 4 (6 Questions)**
+- [**Problem Set 4 (6 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_4_Models_to_analyze_and_visualize_climate_change)
 
 #### UNIT 5
 
@@ -120,4 +120,4 @@ Specialization includes following courses:
 
 #### Final Exam
 
-- **Final Exam (8 hour time limit) (29 Questions)**
+- [**Final Exam (8 hour time limit) (29 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_Final_Exam)
