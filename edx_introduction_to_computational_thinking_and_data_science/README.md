@@ -4,7 +4,7 @@
 
 This project contains code assignments that I found interesting and solved during the completion of the basic courses on learning Python:
 
-### [<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/course_picture.png" alt="course picture" width="100" align="left">](https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem/data_files/course_picture.png) [edX - MITx 6.00.2x - Introduction to Computational Thinking and Data Science](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science)
+### [<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem/data_files/course_picture.png" alt="course picture" width="100" align="left">](https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem/data_files/course_picture.png) [edX - MITx 6.00.2x - Introduction to Computational Thinking and Data Science](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science)
 
 
 #### UNIT 1
