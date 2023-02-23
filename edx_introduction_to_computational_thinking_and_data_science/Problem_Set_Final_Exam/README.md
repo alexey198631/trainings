@@ -21,7 +21,6 @@ and for the x and y axis, `getAverage` that returns the mean and calls makeHisto
 Implementation of a function that meets the specifications:
 
 ```def find_combination(choices, total):
-    """
     choices: a non-empty list of ints
     total: a positive int
 
@@ -34,7 +33,6 @@ Implementation of a function that meets the specifications:
     If there is no result that gives the exact total,
     pick the one that gives sum(result*choices) closest
     to total without going over.
-    """
     ```
 
 #### Problem 8
