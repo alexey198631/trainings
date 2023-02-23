@@ -8,3 +8,5 @@
 - **assignment_13.1.py**: extracting data from XML
 - **assignment_13.2.py**: extracting data from JSON
 - **assignment_13.3.py**: promting of a location using API
+
+```course was finished 06.06.2022

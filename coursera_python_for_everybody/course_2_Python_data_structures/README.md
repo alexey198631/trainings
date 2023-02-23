@@ -9,3 +9,5 @@
 - **assignment_8.5.py**: parse a text from a file and print out a count of emails and addresses from this text
 - **assignment_9.4.py**: code figures out who has the sent the greatest number of mail messages
 - **assignment_10.5.py**: code figures out the distribution by hour of the day for each of the messages
+
+```course was finished 06.06.2022

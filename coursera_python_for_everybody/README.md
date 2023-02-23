@@ -12,3 +12,5 @@ Specialization includes following courses:
 
 
 The great course which helped me to become interested in Python! Special thanks to the course tutor Charles Russell Severance!
+
+```course was finished 06.06.2022
