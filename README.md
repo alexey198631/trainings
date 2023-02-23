@@ -6,7 +6,7 @@ This project contains coding assignments that I found interesting and solved by 
 
 ### [Coursera - Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 
-[<img src="https://github.com/alexey198631/trainings/blob/main/coursera_python_for_everybody/course_picture.png" alt="course picture" width="100" align="right">](https://www.coursera.org/specializations/python)
+[<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_1_Optimization_and_the_Knapsack_Problem/data_files/course_picture.png" alt="course picture" width="100" align="right">](https://www.coursera.org/specializations/python)
 
 Specialization includes following courses:
 
