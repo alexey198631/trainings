@@ -4,6 +4,7 @@
 
 This project contains coding assignments that I found interesting and solved by myself during the completion of the basic courses on learning Python:
 
+
 ### [Coursera - Python for Everybody Specialization](https://www.coursera.org/specializations/python)
 
 [<img src="https://github.com/alexey198631/trainings/blob/main/coursera_python_for_everybody/course_picture.png" alt="course picture" width="100" align="right">](https://www.coursera.org/specializations/python)
@@ -15,6 +16,7 @@ Specialization includes following courses:
 3. [Using python to Access Web Data](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_3_using_Python_to_acess_web_data)
 4. [Using Databases with Python](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_4_using_databases_with_Python)
 5. [Capstone: Retrieving Processing and Visualizing Data with Python](https://github.com/alexey198631/trainings/tree/main/coursera_python_for_everybody/course_5_capstone_retrieving_processing_and_visualizing_data_with_Python)
+
 
 ### [<img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computer_science_and_programming_using_Python/course_picture.png" alt="course picture" width="100" align="left">](https://www.edx.org/course/introduction-to-computer-science-and-programming-7?index=product&queryID=ffa27a743e81f3397da91aefee857fe1&position=1) [edX - MITx: 6.00.1x - Introduction to Computer Science and Programming Using Python](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computer_science_and_programming_using_Python)
 
