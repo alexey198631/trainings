@@ -16,7 +16,7 @@ A helper class Climate was implemented by tutor.
 
 Implementation of the `generate_models` function
 
-#### Problem 2: `R^2`
+#### Problem 2: R^2
 
 Implementation the function `r_squared` to evaluate how well the model describes the data
 
