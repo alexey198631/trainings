@@ -33,3 +33,5 @@ Assume `MAXRABBITPOP = 1000`, `CURRENTRABBITPOP = 500`, `CURRENTFOXPOP = 30`, nu
 Using of polyfit to find the coefficients of a 2nd degree polynomial for the rabbit curve and the same for the fox curve. Then use polyval to evaluation the 2nd degree polynomial and plot it.
 
 <img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_Final_Exam/data_files/p83.png" alt="p83" width="600" align="center">
+
+```course was finished 15.12.2022

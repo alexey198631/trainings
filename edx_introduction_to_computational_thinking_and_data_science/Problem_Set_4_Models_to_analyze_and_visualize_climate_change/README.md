@@ -31,3 +31,5 @@ Implementation the function `evaluate_models_on_training` by integrating the num
 Plotting the results of a linear regression on the average annual temperature of Boston.
 
 <img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_4_Models_to_analyze_and_visualize_climate_change/data_files/p4.png" alt="p4" width="600" align="center">
+
+```course was finished 15.12.2022

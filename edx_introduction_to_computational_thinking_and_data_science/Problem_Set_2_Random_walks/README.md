@@ -79,3 +79,5 @@ Code that runs a complete robot simulation
 RandomWalkRobot class that inherits from Robot (like StandardRobot) but implements the new movement strategy.
 
 #### Problem 6: Data Plotting - see file `ps2.py`
+
+```course was finished 15.12.2022

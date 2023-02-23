@@ -120,3 +120,5 @@ Using the given default weight limits of 10 and the given cow data, both algorit
 - **Exercise_yieldAllCombos.py**: the generator that returns every arrangement of items such that each is in one or none of two different bags;
 - **Exercise_edges_to_the_graph.py**: Adding the appropriate edges to the graph;
 - **Exercise_WeightedEdge.py**: WeightedEdge class that extends Edge.
+
+```course was finished 15.12.2022

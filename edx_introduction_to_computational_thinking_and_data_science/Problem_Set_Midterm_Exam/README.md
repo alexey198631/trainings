@@ -22,3 +22,5 @@ The function creates a random graph and finds a path between two nodes.
 ### Problem 7
 
 The function takes an int parameter and returns a Boolean. It assumes there exists an `int`, `x`, such that `test(x)` is `True`, returns an `int`, `x`, with the smallest absolute value such that `test(x)` is `True`. In case of ties, return any one of them.
+
+```course was finished 15.12.2022

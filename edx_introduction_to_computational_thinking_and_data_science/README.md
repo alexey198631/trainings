@@ -50,3 +50,5 @@ This project contains code assignments that I found interesting and solved durin
 #### Final Exam
 
 - [**Final Exam (8 hour time limit) (29 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_Final_Exam)
+
+```course was finished 15.12.2022

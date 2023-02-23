@@ -57,3 +57,5 @@ A representation for a patient that accounts for the use of drug treatments and 
 The implementation of Problem 4 to run a simulation.
 
 <img src="https://github.com/alexey198631/trainings/blob/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_3_Running_and_Analyzing_Simulation/data_files/pr5.png" alt="course picture" width="600" align="center">
+
+```course was finished 15.12.2022
