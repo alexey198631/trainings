@@ -123,3 +123,5 @@ Specialization includes following courses:
 #### Final Exam
 
 - [**Final Exam (8 hour time limit) (29 Questions)**](https://github.com/alexey198631/trainings/tree/main/edx_introduction_to_computational_thinking_and_data_science/Problem_Set_Final_Exam)
+
+```last course was finished 17.12.2022
