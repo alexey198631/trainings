@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestQt</class>
+ <widget class="QMainWindow" name="TestQt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Test Qt designer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTest_Qt_designer">
+    <property name="title">
+     <string>Test Qt designer</string>
+    </property>
+    <addaction name="actionFile"/>
+    <addaction name="actionFile_2"/>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menuTest_Qt_designer"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFile">
+   <property name="text">
+    <string>File</string>
+   </property>
+  </action>
+  <action name="actionFile_2">
+   <property name="text">
+    <string>File 2</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>File 3</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

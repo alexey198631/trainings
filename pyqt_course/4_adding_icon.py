@@ -25,3 +25,4 @@ app.setWindowIcon(icon)
 window = Window()
 window.show()
 sys.exit(app.exec())
+
