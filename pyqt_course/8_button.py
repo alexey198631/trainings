@@ -17,13 +17,13 @@ class Window(QWidget):
     def create_button(self):
         btn = QPushButton('Push me', self)
         btn.setGeometry(10, 10, 150, 100)
-        btn.setFont(QFont('Times', 14, QFont.Weight.ExtraBold))
+        btn.setFont(QFont('Times New Roman', 14, QFont.Weight.ExtraBold))
         btn.setIcon(QIcon('data_files/python.png'))
         btn.setIconSize(QSize(24, 24))
 
         # menu
         menu = QMenu()
-        menu.setFont(QFont('Times', 14, QFont.Weight.ExtraLight))
+        menu.setFont(QFont('Times New Roman', 14, QFont.Weight.ExtraLight))
         menu.setStyleSheet('background-color:lightblue')
         menu.addAction('Copy')
         menu.addAction('Cut')
