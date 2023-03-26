@@ -11,7 +11,6 @@ class Window(QWidget):
         self.setGeometry(100, 100, 200, 100)  # x, y, width, height
         self.setWindowTitle('radio button')
         self.setWindowIcon(QIcon('data_files/python.png'))
-
         self.create_radio()
 
     def create_radio(self):
@@ -20,7 +19,7 @@ class Window(QWidget):
         radio_1.setIcon(QIcon('data_files/python.png'))
         radio_1.setIconSize(QSize(40, 40))
         radio_1.setFont(QFont('Arial', 12))
-        radio_1.setChecked(True)
+        radio_1.setChecked(False)
         radio_1.toggled.connect(self.radio_selected)
         hbox.addWidget(radio_1)
 
@@ -37,6 +36,9 @@ class Window(QWidget):
         radio_btn = self.sender()
         if radio_btn.isChecked():
             self.label.setText(f'You have selected {radio_btn.text()}')
+        else:
+            self.label.setText('Hello!')
+
 
 
 
