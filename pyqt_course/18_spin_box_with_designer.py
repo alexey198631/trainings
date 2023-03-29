@@ -9,7 +9,7 @@ class UI(QMainWindow):
 
         uic.loadUi('18_spin_box_with_designer.ui', self)
 
-        # accessing to object on the widget generated through ui loading 
+        # accessing to object on the widget generated through ui loading
         self.linePrice = self.findChild(QLineEdit, 'lineEdit')
         self.doublespin = self.findChild(QDoubleSpinBox, 'doubleSpinBox')
         self.result = self.findChild(QLineEdit, 'lineEdit_total')
