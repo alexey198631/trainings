@@ -43,10 +43,6 @@ class Window(QWidget):
         self.label_result.setText('Your Account Type is: ' + item)
 
 
-
-
-
-
 app = QApplication(sys.argv)
 
 # setting icon for app
