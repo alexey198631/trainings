@@ -8,6 +8,8 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 from PyQt6.QtGui import QFont
+from PyQt6.QtWidgets import QColorDialog, QPushButton, QTextEdit
+from PyQt6.QtGui import QColor, QPalette
 
 
 class Ui_Dialog(object):
@@ -35,7 +37,16 @@ class Ui_Dialog(object):
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setObjectName("label_2")
+        self.btn = QPushButton(Dialog)
+        self.btn.setText('Color')
+        self.textedit = QTextEdit()
+
+
+        self.btn.clicked.connect(self.choose_color)
+
         self.horizontalLayout_2.addWidget(self.label_2)
+        self.horizontalLayout_2.addWidget(self.btn)
+        self.horizontalLayout_2.addWidget(self.textedit)
         spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
         self.horizontalLayout_2.addItem(spacerItem1)
         self.plainTextEdit = QtWidgets.QPlainTextEdit(Dialog)
@@ -49,6 +60,12 @@ class Ui_Dialog(object):
     def my_font(self):
         myFont = QFont(self.fontComboBox.itemText(self.fontComboBox.currentIndex()))
         self.plainTextEdit.setFont(QFont(myFont))
+
+    def choose_color(self):
+        color = QColorDialog.getColor()
+        if color.isValid():
+            self.textedit.setTextColor(color)
+
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
