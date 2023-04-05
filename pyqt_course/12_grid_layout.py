@@ -22,6 +22,8 @@ class Window(QWidget):
         self.setLayout(grid)
 
 
+
+
 app = QApplication(sys.argv)
 
 # setting icon for app

@@ -35,8 +35,6 @@ class Window(QWidget):
         label_2.setFixedSize(scaled_pixmap.size())
         label_2.move(10, 30)
 
-
-
 app = QApplication(sys.argv)
 
 #setting icon for app
