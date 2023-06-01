@@ -1,6 +1,7 @@
-from PyQt6.QtWidgets import QApplication, QDialog, QHBoxLayout, QVBoxLayout, QLabel, QLineEdit, QPushButton, QInputDialog
+from PyQt6.QtWidgets import QApplication, QMainWindow, QDialog, QHBoxLayout, QVBoxLayout, QLabel, QLineEdit, QPushButton, QInputDialog
 from PyQt6.QtGui import QIcon, QFont
 import sys
+
 
 # object oriented concept
 class Window(QDialog):
